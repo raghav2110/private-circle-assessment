@@ -1,0 +1,93 @@
+.save-button-container{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    background: #1A2C5B;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.dash-button1{
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    left: 12px;
+    top: 31px;
+
+    border: 1px solid #FFFFFF;
+}
+
+.dash-button2{
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    left: 12px;
+    top: 36px;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+.dash-button3{
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    left: 12px;
+    top: 41px;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+.text-button{
+    position: absolute;
+    width: 96px;
+    height: 13px;
+    left: 54px;
+    top: 24px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+
+}
+
+.btn {
+    background-color: rgb(0,43,66);
+    ;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    color: gray;
+  }
+
+  .searchbtn {
+    background-color: rgb(245,245,245);
+    border: none;
+    color: rgb(14, 57, 100);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .searchbtn:hover {
+    color: black;
+  }
+

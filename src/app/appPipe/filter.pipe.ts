@@ -10,7 +10,7 @@ export class FilterPipe implements PipeTransform {
       return value
     }
     return value.filter(function(search:any){
-      return search.game.indexOf(searchTerm) > -1
+      return search.name.indexOf(searchTerm) > -1
     })
   }
 

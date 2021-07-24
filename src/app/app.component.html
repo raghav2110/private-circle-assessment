@@ -18,12 +18,12 @@
         </thead>
         <tbody *ngFor="let data of games | filter:message">
           <tr>
-            <td class="">{{data.release}}</td>
-            <td  *ngIf="data.platform=='0'" platform="data.platform" class="listName active">{{data.game}}</td>
-            <td *ngIf="data.platform!='0'" platform="data.platform" class="listName unactive">{{data.game}}</td>            
-            <td class="th-right">{{data.platform}}</td>
+            <td class="">{{data.date}}</td>
+            <td  *ngIf="data.entities=='0'" entities="data.entities" class="listName active">{{data.name}}</td>
+            <td *ngIf="data.entities!='0'" entities="data.entities" class="listName unactive">{{data.name}}</td>            
+            <td class="th-right">{{data.entities}}</td>
             <td class=""><span><i class="fa fa-envelope"></i></span><span><i class="fa fa-share"></i></span><span><i class="fa fa-pencil"></i></span><span><i class="fa fa-trash"></i></span></td>
-            <td><button class="" (click)="detailsClick(data.game)">Details</button></td>
+            <td><button class="" (click)="detailsClick(data.description)">Details</button></td>
           </tr>
         </tbody>
       </table>

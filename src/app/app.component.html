@@ -1,4 +1,4 @@
-<app-navaiagation-bar (event) ="receiveMessage($event)"></app-navaiagation-bar>
+<app-navaiagation-bar (event) ="receivesearchInput($event)"></app-navaiagation-bar>
 <ng-sidebar-container>
  
   <!-- A sidebar -->
@@ -16,7 +16,7 @@
             <th class="col"></th>
           </tr>
         </thead>
-        <tbody *ngFor="let data of games | filter:message">
+        <tbody *ngFor="let data of games | filter:searchInput">
           <tr>
             <td class="">{{data.date}}</td>
             <td  *ngIf="data.entities=='0'" entities="data.entities" class="listName active">{{data.name}}</td>

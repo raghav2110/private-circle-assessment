@@ -8,13 +8,13 @@ import { Component, Output, EventEmitter, OnInit } from '@angular/core';
     
 export class NavigationBarComponent  implements OnInit  
 {      
-    searchh:string=''
-    message = ""
+    searchText:string=''
+    searchInput = ""
     @Output() event = new EventEmitter<string>()
     ngOnInit(){}
 
     sendSearch(search:any){
-        this.message= search
-        this.event.emit(this.message)
+        this.searchInput= search
+        this.event.emit(this.searchInput)
     }
 }

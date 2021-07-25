@@ -6,17 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    message:any = ''
-    receiveMessage($event:any){
-        this.message=$event
+  searchInput:any = ''
+    receivesearchInput($event:any){
+        this.searchInput=$event
     }
 
   _opened: boolean = true;
-  welcome : string;
   details="";
   games : any
   constructor(){
-      this.welcome = "Display List using ngFor in Angular 2"
 
       this.games = [{
           name : "Deus Ex: Mankind Divided",
